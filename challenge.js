@@ -4,5 +4,3 @@ function sum(number, total = 0) {
   }
   return sum(number-1, total + number)
 }
-
-console.log(sum(10))
